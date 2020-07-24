@@ -745,14 +745,8 @@ body {
     padding-left: 10px;
   }
 
-  .social-icon-list{
-    position: absolute;
-    bottom  :30px;
-  }
-
-  .copyright{
-    position: absolute;
-    bottom  :20px;
+  .social-icon-list {
+    margin-top: 95px;
   }
 
   .menu-btn {
