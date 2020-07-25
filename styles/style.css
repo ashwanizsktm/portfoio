@@ -484,8 +484,29 @@ body {
 /* End Resume */
 
 /* Start Project */
+.tech-stack>h3 {
+  font-size: 20px;
+  color: #fff;
+  font-weight: 300;
+  margin-top: 20px;
+  border-bottom: 1px solid #00A3E1;
+  width: 140px;
+  
+}
+
 .project-card>h3 {
   font-weight: 300;
+}
+
+.card-title {
+  font-size     : 20px;
+  font-weight   : 300;
+  letter-spacing: 1px;
+  width         : 20px;
+  margin        : auto;
+  margin-bottom : 20px;
+  border-bottom : 1px solid #00A3E1;
+  transition    : width .5s;
 }
 
 .project-logo {
@@ -494,31 +515,48 @@ body {
   object-fit: cover;
 }
 
-.project-details>h3 {
-  color        : #fff;
-  font-weight  : 300;
-  margin-top   : 20px;
-  max-width    : 145px;
-  border-bottom: 1px solid #00A3E1;
+/* Skillsbar */
+.skills {
+  text-transform : uppercase;
+  font-size      : 16px;
+  color          : #fff;
+  font-weight    : 300;
+  display        : flex;
+  justify-content: space-between;
+  flex-wrap      : wrap;
 }
 
-.project-details>ul li {
-  color      : #fff;
-  font-weight: 300;
-  padding    : 10px 15px;
-  position   : relative;
+.skill {
+  width: 500px;
 }
 
-.project-details>ul li::before {
-  content         : '';
-  height          : 8px;
-  width           : 8px;
-  border-radius   : 50%;
-  position        : absolute;
-  top             : 15px;
-  left            : 0px;
-  display         : inline-block;
-  background-color: #00A3E1;
+.skill-name {
+  margin: 25px 0 10px 0;
+}
+
+.skill-bar {
+  height          : 15px;
+  background-color: rgba(11, 149, 204, 0.3);
+}
+
+.skill-per {
+  height          : 15px;
+  background-color: rgba(11, 149, 204, 1);
+  width           : 0;
+  transition      : 1.5s linear;
+  position        : relative;
+}
+
+.skill-per::before {
+  content      : attr(per);
+  position     : absolute;
+  height       : 0;
+  width        : 0;
+  border-bottom: #00A3E1 30px solid;
+  border-right : 20px solid transparent;
+  border-left  : 20px solid transparent;
+  top          : -15px;
+  right        : -10px;
 }
 
 .project-card-wrapper {
@@ -530,7 +568,6 @@ body {
 .project-card {
   margin: 10px;
 }
-
 
 /* End Project */
 
