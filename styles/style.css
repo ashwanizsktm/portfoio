@@ -655,7 +655,7 @@ body {
   .card {
     width  : 250px;
     padding: 6px;
-    margin : 5px 0;
+    margin : 5px;
   }
 
   .home-content-name {
