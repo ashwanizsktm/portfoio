@@ -771,6 +771,7 @@ body {
     z-index         : 1;
     width           : 100%;
     align-items     : center;
+    border-bottom: 1px solid grey;
   }
 
   .header-mobile-bar>h3 {
@@ -798,8 +799,7 @@ body {
   }
 
   .menu-btn {
-    margin-right: 5px;
-    padding     : 17px;
+    padding: 21px 17px 20px 17px;
     height      : 60px;
     border-left : 1px dotted grey;
   }
@@ -830,6 +830,7 @@ body {
   /* Header End */
   .main-content {
     transform: translateX(0);
+    width: 100vw;
   }
 
   .home,
@@ -837,7 +838,7 @@ body {
   .resume,
   .project,
   .contact {
-    width: 100vw;
+    width: unset;
   }
 
   /* Start Home */
