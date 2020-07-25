@@ -65,9 +65,13 @@ $('.skill-per').each(function () {
       $this.attr('per', Math.floor(this.animatedValue) + '%');
     }
   });
-
-
-
-
 });
 
+const mainContent = document.querySelector('.main-content');
+mainContent.addEventListener('click', () => {
+  if (menuOpen) {
+    header.classList.remove('header-show');
+    menuBtn.classList.remove('open');
+    menuOpen = false
+  }
+})
