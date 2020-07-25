@@ -129,7 +129,7 @@ body {
 .main-content {
   position : absolute;
   transform: translateX(200px);
-  width: calc(100% - 200px);
+  width    : calc(100% - 200px);
 }
 
 .home,
@@ -649,7 +649,13 @@ body {
 
   .main-content {
     transform: translateX(190px);
-    width: calc(100% - 190px);
+    width    : calc(100% - 190px);
+  }
+
+  .card {
+    width  : 250px;
+    padding: 6px;
+    margin : 5px 0;
   }
 
   .home-content-name {
@@ -664,18 +670,12 @@ body {
     padding: 11px 15px 11px 20px;
   }
 
-  .social-icon-list {
-    position: absolute;
-    bottom  : 32px;
-  }
-
   .social-icon-list-item {
     padding: 15px 6px 15px 14px;
   }
 
   .copyright {
-    position: absolute;
-    bottom  : 15px;
+    padding-bottom: 15px;
   }
 
   .project-card-wrapper {
@@ -690,6 +690,7 @@ body {
   /* Start Header */
   .header {
     max-width: 160px;
+    overflow : scroll;
   }
 
   .user-profile {
@@ -718,10 +719,8 @@ body {
   /* Start Main content */
   .main-content {
     transform: translateX(160px);
-    width: calc(100% - 160px);
+    width    : calc(100% - 160px);
   }
-
- 
 
   .home-content-name {
     font-size: 50px;
@@ -738,16 +737,10 @@ body {
   }
 
   .card-wrap {
-    justify-content: space-between;
+    flex-direction: column-reverse;
+    align-items   : center;
   }
 
-  .card {
-    width  : 250px;
-    padding: 6px;
-  }
-
-  /* End-about */
-  /* Start Resume */
   .subheading h3 {
     font-size: 18px;
   }
@@ -762,7 +755,6 @@ body {
 
   .resume-list-common {
     margin: 27px 0 50px;
-    /* End Resume */
   }
 
   /* Start Contact */
@@ -824,19 +816,17 @@ body {
     padding-left: 10px;
   }
 
-  .social-icon-list {
-    position: absolute;
-    bottom  : 30px;
-  }
-
   .social-icon-list-item {
     padding: 15px 5px 15px 16px;
   }
 
+  .social-icon-list {
+    margin-top: 160px;
+  }
+
   .copyright {
-    position    : absolute;
-    bottom      : 14px;
-    padding-left: 20px;
+    padding-left  : 20px;
+    padding-bottom: 20px;
   }
 
   .menu-btn {
@@ -874,14 +864,6 @@ body {
     width    : 100vw;
   }
 
-  .home,
-  .about,
-  .resume,
-  .project,
-  .contact {
-    width: unset;
-  }
-
   /* Start Home */
   .home-content-name {
     font-size: 35px;
@@ -910,16 +892,11 @@ body {
     line-height: 1.5;
   }
 
-  .card-wrap {
-    flex-direction: column-reverse;
-    align-items   : center;
-  }
-
   .card {
     margin-top: 20px;
   }
 
-  /* Start About */
+  /* End About */
   /* Start Project */
   .project-card-wrapper {
     justify-content: center;

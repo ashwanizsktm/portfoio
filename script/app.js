@@ -1,5 +1,5 @@
 $(function () {
-
+  
   var link = $('#navbar a.nav-link-item');
   // Move to specific section when click on menu link
   link.on('click', function (e) {
