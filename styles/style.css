@@ -783,7 +783,13 @@ body {
   }
 
   .social-icon-list {
-    margin-top: 95px;
+    position: absolute;
+    bottom: 30px;
+  }
+
+  .copyright{
+    position: absolute;
+    bottom: 14px;
   }
 
   .menu-btn {
