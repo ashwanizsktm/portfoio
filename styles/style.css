@@ -129,6 +129,7 @@ body {
 .main-content {
   position : absolute;
   transform: translateX(200px);
+  width: calc(100% - 200px);
 }
 
 .home,
@@ -137,7 +138,6 @@ body {
 .project,
 .contact {
   min-height      : 100vh;
-  width           : calc(100vw - 227px);
   background-color: #2C2D2F;
   margin          : 5px;
   box-shadow      : 0 0 10px #000;
@@ -343,9 +343,8 @@ body {
 .card-details {
   font-size     : 14px;
   letter-spacing: 1px;
-  line-height   : 1.4;
   font-weight   : 200;
-  padding-top   : 15px;
+  padding-top   : 10px;
 }
 
 .card-details {
@@ -485,13 +484,13 @@ body {
 
 /* Start Project */
 .tech-stack>h3 {
-  font-size: 20px;
-  color: #fff;
-  font-weight: 300;
-  margin-top: 20px;
+  font-size    : 20px;
+  color        : #fff;
+  font-weight  : 300;
+  margin-top   : 20px;
   border-bottom: 1px solid #00A3E1;
-  width: 140px;
-  
+  width        : 140px;
+
 }
 
 .project-card>h3 {
@@ -630,7 +629,62 @@ body {
 }
 
 /* End Main Content */
+
 /* Tablet */
+@media only screen and (max-width: 992.5px) {
+  /* Hdader */
+
+  .header {
+    max-width: 190px;
+  }
+
+  .user-profile {
+    width : 190px;
+    height: 190px;
+  }
+
+  .profile-name {
+    width: 190px;
+  }
+
+  .main-content {
+    transform: translateX(190px);
+    width: calc(100% - 190px);
+  }
+
+  .home-content-name {
+    font-size: 60px;
+  }
+
+  .name-title {
+    font-size: 64px;
+  }
+
+  .header-nav-list-item .nav-link-item {
+    padding: 11px 15px 11px 20px;
+  }
+
+  .social-icon-list {
+    position: absolute;
+    bottom  : 32px;
+  }
+
+  .social-icon-list-item {
+    padding: 15px 6px 15px 14px;
+  }
+
+  .copyright {
+    position: absolute;
+    bottom  : 15px;
+  }
+
+  .project-card-wrapper {
+    flex-wrap      : wrap;
+    justify-content: unset;
+  }
+
+}
+
 @media only screen and (max-width: 768.5px) {
 
   /* Start Header */
@@ -664,15 +718,10 @@ body {
   /* Start Main content */
   .main-content {
     transform: translateX(160px);
+    width: calc(100% - 160px);
   }
 
-  .home,
-  .about,
-  .resume,
-  .project,
-  .contact {
-    width: calc(100vw - 172px);
-  }
+ 
 
   .home-content-name {
     font-size: 50px;
@@ -715,14 +764,6 @@ body {
     margin: 27px 0 50px;
     /* End Resume */
   }
-
-  /* Start Project */
-  .project-card-wrapper {
-    flex-wrap      : wrap;
-    justify-content: unset;
-  }
-
-  /* End Project */
 
   /* Start Contact */
   .contact-info-wrap {
@@ -771,7 +812,7 @@ body {
     z-index         : 1;
     width           : 100%;
     align-items     : center;
-    border-bottom: 1px solid grey;
+    border-bottom   : 1px solid grey;
   }
 
   .header-mobile-bar>h3 {
@@ -785,23 +826,23 @@ body {
 
   .social-icon-list {
     position: absolute;
-    bottom: 30px;
+    bottom  : 30px;
   }
 
   .social-icon-list-item {
     padding: 15px 5px 15px 16px;
   }
 
-  .copyright{
-    position: absolute;
-    bottom: 14px;
+  .copyright {
+    position    : absolute;
+    bottom      : 14px;
     padding-left: 20px;
   }
 
   .menu-btn {
-    padding: 21px 17px 20px 17px;
-    height      : 60px;
-    border-left : 1px dotted grey;
+    padding    : 21px 17px 20px 17px;
+    height     : 60px;
+    border-left: 1px dotted grey;
   }
 
   .menu-btn-burger {
@@ -830,7 +871,7 @@ body {
   /* Header End */
   .main-content {
     transform: translateX(0);
-    width: 100vw;
+    width    : 100vw;
   }
 
   .home,
