@@ -636,6 +636,7 @@ body {
 
   .header {
     max-width: 190px;
+    overflow: scroll;
   }
 
   .user-profile {
