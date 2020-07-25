@@ -742,7 +742,7 @@ body {
 
   /* Header Start */
   .header {
-    max-width : 170px;
+    max-width : 195px;
     left      : -200px;
     height    : 100%;
     top       : 0;
@@ -751,12 +751,12 @@ body {
   }
 
   .user-profile {
-    width : 170px;
-    height: 170px;
+    width : 195px;
+    height: 195px;
   }
 
   .profile-name {
-    width: 170px;
+    width: 195px;
   }
 
   .header-show {
@@ -787,9 +787,14 @@ body {
     bottom: 30px;
   }
 
+  .social-icon-list-item {
+    padding: 15px 5px 15px 16px;
+  }
+
   .copyright{
     position: absolute;
     bottom: 14px;
+    padding-left: 20px;
   }
 
   .menu-btn {
