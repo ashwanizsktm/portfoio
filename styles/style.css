@@ -882,9 +882,9 @@ body {
 
   /* Start Home */
   .portfolio-title{
-    font-size: 35px;
+    font-size: 30px;
   }
-  
+
   .home-content-name {
     font-size: 35px;
   }
@@ -921,8 +921,8 @@ body {
   .project-card-wrapper {
     justify-content: center;
   }
-
   /* End Project */
+
   /* Start contact */
   .contact-details {
     flex-direction: column;
@@ -935,6 +935,5 @@ body {
   .contat-info-parent {
     margin-top: 20px;
   }
-
   /* End Contact */
 }
