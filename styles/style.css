@@ -330,6 +330,7 @@ body {
 
 .card:hover {
   box-shadow: 6px 8px 24px #000;
+  transform: scale(1.05, 1.05);
 }
 
 .card:hover>.card-title {
