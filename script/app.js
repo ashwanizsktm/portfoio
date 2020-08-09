@@ -1,5 +1,5 @@
 // my profile animation
-const words = ["Ashwani.", "a Web Developer.", "passionate in developing user interfaces."];
+const words = ["Ashwani.", "a Web Developer.", "a UI Developer."];
 
 let cursor = gsap.to('.cursor', {opacity: 0, ease:"power2.inOut", repeat: -1});
 
