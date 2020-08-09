@@ -154,15 +154,15 @@ body {
   background-size      : cover;
 }
 
-.portfolio-title{
-  font-family: cursive;
-  font-style: italic;
-  color: #fff;
+.portfolio-title {
+  font-family   : cursive;
+  font-style    : italic;
+  color         : #fff;
   text-transform: uppercase;
-  font-size: 60px;
+  font-size     : 60px;
 }
 
-.colored-title{
+.colored-title {
   color: #00A3E1;
 }
 
@@ -170,7 +170,7 @@ body {
   text-transform: uppercase;
   color         : #fff;
   font-size     : 80px;
-  margin-top: 20px;
+  margin-top    : 20px;
 }
 
 .name-title {
@@ -179,15 +179,32 @@ body {
   font-weight: bold;
 }
 
-.profile-details {
+.about_me {
+  margin-top: 20px;
   color     : #fff;
-  text-align: center;
+  font-size : 3vw;
+  overflow  : hidden;
+  position: relative;
 }
 
-.profile-details-title {
+.about_me>.box {
+  position        : absolute;
+  bottom: 0;
+  display         : inline-block;
+  height          : 2px;
+}
+.about_me>.hi{
+  display: inline-block;
+  font-weight: 400;
+}
+.about_me>.text{
+  display: inline-block;
+  color: #00A3E1;
+  font-weight: 300;
   border-bottom: 1px solid #00A3E1;
-  color        : #00A3E1;
-  font-size    : 20px;
+}
+.cursor {
+  color: #00A3E1;
 }
 
 /* End Home */
@@ -330,7 +347,7 @@ body {
 
 .card:hover {
   box-shadow: 6px 8px 24px #000;
-  transform: scale(1.05, 1.05);
+  transform : scale(1.05, 1.05);
 }
 
 .card:hover>.card-title {
@@ -649,12 +666,13 @@ body {
 
   .header {
     max-width: 190px;
-    overflow: scroll;
+    overflow : scroll;
   }
 
-  .portfolio-title{
+  .portfolio-title {
     font-size: 50px;
   }
+
   .user-profile {
     width : 190px;
     height: 190px;
@@ -721,6 +739,10 @@ body {
 
   .social-icon-list-item {
     padding: 15px 5px 15px 10px;
+  }
+
+  .about_me{
+    font-size : 4vw;
   }
 
   .header-nav-list-item .nav-link-item {
@@ -882,7 +904,7 @@ body {
   }
 
   /* Start Home */
-  .portfolio-title{
+  .portfolio-title {
     font-size: 30px;
   }
 
@@ -922,6 +944,7 @@ body {
   .project-card-wrapper {
     justify-content: center;
   }
+
   /* End Project */
 
   /* Start contact */
@@ -936,6 +959,6 @@ body {
   .contat-info-parent {
     margin-top: 20px;
   }
-  
+
   /* End Contact */
 }
