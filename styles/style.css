@@ -184,25 +184,28 @@ body {
   color     : #fff;
   font-size : 3vw;
   overflow  : hidden;
-  position: relative;
+  position  : relative;
 }
 
 .about_me>.box {
-  position        : absolute;
-  bottom: 0;
-  display         : inline-block;
-  height          : 2px;
+  position: absolute;
+  bottom  : 0;
+  display : inline-block;
+  height  : 2px;
 }
-.about_me>.hi{
-  display: inline-block;
+
+.about_me>.hi {
+  display    : inline-block;
   font-weight: 400;
 }
-.about_me>.text{
-  display: inline-block;
-  color: #00A3E1;
-  font-weight: 300;
+
+.about_me>.text {
+  display      : inline-block;
+  color        : #00A3E1;
+  font-weight  : 300;
   border-bottom: 1px solid #00A3E1;
 }
+
 .cursor {
   color: #00A3E1;
 }
@@ -741,8 +744,16 @@ body {
     padding: 15px 5px 15px 10px;
   }
 
-  .about_me{
-    font-size : 4vw;
+  .about_me {
+    font-size: 4vw;
+  }
+
+  .about_me>.hi {
+    font-weight: 600;
+  }
+
+  .about_me>.text {
+    font-weight: 500;
   }
 
   .header-nav-list-item .nav-link-item {
