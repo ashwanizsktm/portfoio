@@ -824,7 +824,10 @@ body {
   .global-wrapper {
     display: block;
   }
-
+ 
+  .section-content{
+    padding: 60px 25px 25px;
+  }
   /* Header Start */
   .header {
     max-width : 195px;
